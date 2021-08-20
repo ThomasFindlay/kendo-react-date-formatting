@@ -33,15 +33,15 @@ load(
 function App() {
   return (
     <div className="App">
-      {/* <h1>Date formats examples using DatePicker</h1>
+      <h1>Date formats examples using DatePicker</h1>
       <DatePickers />
       <LongMonthFormatPicker />
       <MonthPickers />
-      <h2>Locale-based DatePicker</h2> */}
+      <h2>Locale-based DatePicker</h2>
       <SelectLocale>
         {({ locale }) => (
           <IntlProvider locale={locale}>
-            {/* <DynamicLocaleDatePicker /> */}
+            <DynamicLocaleDatePicker />
             <h2>DateTimePicker</h2>
             <DateTimePickerWithLocale />
           </IntlProvider>
